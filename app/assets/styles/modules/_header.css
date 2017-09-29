@@ -1,0 +1,25 @@
+nav {
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+}
+
+nav img {
+  width: 25%;
+  height: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-bar {
+  padding: 20px 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.btn-ghost {
+  border: 2px solid #FFF;
+}

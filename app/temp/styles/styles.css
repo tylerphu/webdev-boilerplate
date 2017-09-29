@@ -461,7 +461,152 @@ html {
     background-color: #FFF;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  line-height: 145%;
+}
+
+.btn {
+  padding: 7px 25px 10px 25px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.btn-ghost {
+  border: 2px solid #FFF;
+}
+
+.btn-filled {
+  border: 2px solid #FFF;
+  background-color: #0178ab;
+  color: #FFF;
+}
+
+.row {
+  max-width: 1140px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  font-family: 'Lato', 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  color: #5b5b5b;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+nav {
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+}
+
+nav img {
+  width: 25%;
+  height: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-bar {
+  padding: 20px 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.btn-ghost {
+  border: 2px solid #FFF;
+}
+
+.hero-text-box {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/assets/img/poke_mainbg_.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/poke_mainbg_.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+
+}
+
+.hero-text-box__image {
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+  }
+
+.hero-text-box__text-content {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+  }
+
+.hero-text-box__title {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-weight: 400;
+    word-spacing: 11px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+.premium-intro {
+  width: 100%;
+  padding-top: 70px;
+  background-color: #f7f5f5;
+
+}
+
+.premium-intro__text-container {
+    padding: 30px 30px;
+    width: 70%;
+    float: right;
+    background-color: #FFF;
+    border: 1px solid #d1caca;
+  }
+
+.premium-intro h2 {
+    margin-bottom: 30px;
+    font-size: 2.8rem;
+    font-weight: 300;
+  }
+
+.premium-intro p {
+    line-height: 145%;
+    margin-bottom: 60px;
+  }
+
+.premium-intro__top-image {
+    width: 100%;
+    margin-top: 10%;
+    padding-right: 10%;
+  }
+
+.premium-intro__bottom-image {
+    width: 90%;
+    position: relative;
+    left: -33%;
+    margin-top: 20px;
+  }

@@ -8,7 +8,50 @@ html {
     background-color: #FFF;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: $mainGrey;
+}
+
+p {
+  line-height: 145%;
+}
+
+.btn {
+  padding: 7px 25px 10px 25px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.btn-ghost {
+  border: 2px solid #FFF;
+}
+
+.btn-filled {
+  border: 2px solid #FFF;
+  background-color: #0178ab;
+  color: #FFF;
+}
+
+.row {
+  max-width: 1140px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  font-family: 'Lato', 'Roboto', sans-serif;
+  letter-spacing: 10px;
+  color: #5b5b5b;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
 }
